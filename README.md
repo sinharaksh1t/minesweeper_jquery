@@ -1,5 +1,5 @@
 # Minesweeper
-The most popular game of my childhood. Developed as a side project to practice some jQuery and CSS.
+The most popular and addictive game of my childhood. Developed as a side project to practice some jQuery and CSS. Feel free to [play here](https://rakchan-minesweeper.firebaseapp.com/).
 
 ## Rules of the Game:
 1. You are presented with a board of squares. Some squares contain mines (bombs), others don't. If you click on a square containing a bomb, you lose. If you manage to click all the squares (without clicking on any bombs) you win.
