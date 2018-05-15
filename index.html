@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minesweeper</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="minesMakeUp.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Let's Play Mines! <img src="icons/smiley.ico" alt="" height="50px"></h1>
+		</div>
+
+		<div class="minesbox">
+			<!-- The entire Minesweeper grid comes here through jQuery-->
+		</div>
+
+		<div class="alert alert-danger" id="lose-alert" role="alert" style="display:none;">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+			Aww Snap! Better luck next time!! Dismiss this message to start a new game!
+		</div>
+
+		<div class="alert alert-success" id="win-alert" role="alert" style="display:none;">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+			Congratulations!! You won the Game!! Dismiss this message to start a new game!
+		</div>
+
+	</div>
+
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="minesLogic.js"></script>
+</body>
+</html>
